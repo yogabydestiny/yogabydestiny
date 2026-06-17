@@ -382,10 +382,12 @@
     #cta .section-title { margin-bottom: 1rem; }
     #cta p { margin-bottom: 2.5rem; }
     .form-row {
-      display: flex; gap: .75rem; max-width: 460px; margin: 0 auto;
+      display: flex; flex-direction: column; gap: .85rem; max-width: 380px; margin: 0 auto;
     }
     .form-row button.btn-primary {
       font-family: 'Lato', sans-serif;
+      width: 100%;
+      margin-top: .35rem;
     }
     .form-status {
       font-size: .85rem; margin-top: 1rem; min-height: 1.2em;
@@ -493,9 +495,6 @@
       .about-accent { display: none; }
       .styles-grid { grid-template-columns: 1fr; }
       .testimonials-grid { grid-template-columns: 1fr; }
-      .form-row { flex-direction: column; }
-      .form-row .form-input,
-      .form-row button.btn-primary { width: 100%; }
       .email-fallback { flex-wrap: wrap; justify-content: center; text-align: center; }
       .stats-row { gap: 2rem; }
       footer { justify-content: center; text-align: center; }
