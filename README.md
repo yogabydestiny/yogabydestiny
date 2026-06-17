@@ -1,2 +1,0 @@
-# Yogabydestiny
-Webpage
